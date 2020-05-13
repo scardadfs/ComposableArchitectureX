@@ -1,0 +1,33 @@
+PODS:
+  - ComposableArchitectureX (0.1.0):
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - ComposableArchitectureX (from `../`)
+  - RxCocoa (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  ComposableArchitectureX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ComposableArchitectureX: 5d6cb812d7d62b4abfaa36864a879443a8a34fdf
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 4d6c33be8f7e7cabaa8e9211f40e3ac115e86f6c
+
+COCOAPODS: 1.9.1

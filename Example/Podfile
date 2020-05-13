@@ -1,0 +1,10 @@
+target 'ComposableArchitectureX_Example' do
+  pod 'ComposableArchitectureX', :path => '../'
+  pod 'RxCocoa', '~> 5'
+
+  target 'ComposableArchitectureX_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
