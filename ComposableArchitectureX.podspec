@@ -16,5 +16,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ComposableArchitectureX/Classes/**/*'
   s.dependency "RxSwift", "~> 5.0"
+
+  s.swift_version = '5.0'
 end
-J
